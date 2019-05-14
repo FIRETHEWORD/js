@@ -59,7 +59,15 @@
     var didian=['教室','校门','教务处']
     var shijian=['看门','学习','批试卷']
     var times=['上午','下午','中午']
-    document.write(times[Math.floor*3]+arr[Math.floor*3]+'在'+didian[Math.floor*3]+shijian[Math.floor*3])
+
+    var a,d,s,t
+    a = Math.floor(Math.random() * arr.length)
+    d = Math.floor(Math.random() * didian.length)
+    s = Math.floor(Math.random() * shijian.length)
+    t = Math.floor(Math.random() * times.length)
+    document.write('<br>'+times[t]+arr[a]+didian[d]+shijian[s])
+
+
   </script>
 
 </body>
