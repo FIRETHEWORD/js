@@ -1,0 +1,289 @@
+
+
+
+
+
+
+
+html {
+    position: relative; 
+}
+
+a, abbr, acronym, address, applet, article,
+aside, audio, b, big, blockquote, canvas, 
+caption, center, cite, code, dd, del, details,
+dfn, div, dl, dt, em, embed, fieldset, figcaption,
+figure, footer, form, h1, h2, h3, h4, h5, h6, header, 
+hgroup, i, iframe, img, ins, kbd, label, legend, li, mark, 
+menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section,
+small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot,
+th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+html,body{
+    min-width: 1100px;
+    color: #2c3a46;
+    background: #fff;
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0px;
+}
+
+.head .ulkj .nav-q3 {
+    float: right;
+    zoom: 1; 
+    margin: 0px;
+}
+
+.head .ulkj .nav-q3 > li .dhl {
+  text-decoration: none;
+  color: #2c3a46; 
+}
+
+.head .ulkj .nav-q3 > li .dhl:hover {
+    color: #FF4444; 
+}
+
+.head .ulkj .nav-q3 .tcxs {
+    color: #FF4444 !important; 
+}
+
+.head .ulkj .nav-q3 .tcxs .caret:after {
+     border-top-color: #FF4444;
+}
+
+.head .ulkj .nav-q3 > li {
+    float: left;
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    padding: 0px 20px; 
+}
+
+.head .ulkj .p1 {
+    display: inline-block;
+    width: 60px;
+    margin-left: 10px;
+    margin-bottom: -1px; 
+}
+
+.head .ulkj .p1 .text1 {
+    float: left;
+    width: 78px;
+    color: #999;
+    font-size: 10px;
+    font-family: 'PingFang SC';
+    font-weight: 300;
+    line-height: 13px; 
+    margin: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.head{
+    width: 100%;
+    min-width: 1100px;
+    height: auto;
+    position: relative;
+    background: #ffffff;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    z-index: 200;
+    transition: all 0.5s ease-in;
+    
+}
+
+.head .ulkj {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1100px;
+    height: 70px;
+    zoom: 1;
+}
+
+.head .ulkj .logo{
+    display: inline-block;
+    width: 72px;
+    height: 25px;
+    background-size: 72px 25px;
+    background-image: url(logo.png);   
+    margin-top: 22.5px;    
+}
+
+
+.head .ulkj .nav-q3 .cp {
+    z-index: 200;
+}
+
+.head .ulkj .nav-q3 .cp div.active {
+    background: #f8f8f8;
+}
+
+.head .ulkj .nav-q3 .cp:hover .caret:after {
+    border-top-color: #FF4444;
+}
+
+.head .ulkj .nav-q3 .cp:hover .dhl {
+    color: #FF4444; 
+}
+
+.head .ulkj .nav-q3 .cp:hover .xiala {
+    transform: rotate3d(0, 0, 0, 0deg);
+    transform-origin: 50% 0%;
+    max-height: 1000px; 
+}
+
+
+.head .ulkj .nav-q3 .cp:hover .xiala {
+  transform: rotate3d(0, 0, 0, 0deg);
+  transform-origin: 50% 0%;
+  max-height: 1000px; 
+}
+
+.head .ulkj .nav-q3 .cp .xiala {
+  position: absolute;
+  left: 0;
+  border-bottom: 0.5px solid #e5e5e5;
+  transform: rotate3d(1, 0, 0, -90deg);
+  z-index: 100;
+  max-height: 0px;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.07);
+  transform-origin: 50% 0%;
+  transition: 300ms ease-in-out;
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%; 
+}
+
+.head .ulkj .nav-q3 .cp:hover .caret:after {
+  border-top-color: #FF4444; 
+}
+
+  .head .ulkj .nav-q3 .tcxs .caret:after {
+  border-top-color: #FF4444;
+}
+
+.head .ulkj .btn-login {
+    width: 80px;
+    height: 30px;
+    line-height: 28px;
+    display: inline-block;
+    border: 1px solid #2B90ED;
+    color: #2B90ED;
+    text-align: center;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.head .ulkj .btn-q5_ {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #2B90ED;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.head .ulkj li.login {
+    padding: 0px 0px 0px 20px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.head .ulkj li.q5 {
+    padding: 0px 0px 0px 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+.head .ulkj .btn-login:hover{
+    background-color: #2B90ED;
+    color:white;
+}
+
+.head .ulkj .btn-q5_:hover{
+    background-color:#6495ED;
+    color: white;
+}
+
+
+.box{
+  width:300px;
+  height:200px;
+  margin:10px;
+  position:relative;
+}
+.bacpic{
+  position: relative;
+  width: 2543px;
+  height: 420px;
+}
+.word{
+  width: 140px;
+  height: 40px;
+  background-color: #2B90ED;
+  left:700px;
+  top:270px;
+  position:absolute;
+  font-size: 15px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  line-height:40px;
+  text-decoration-line: none;
+  z-index: 1;
+}
+.word1{
+  width: 200px;
+  height: 50px; 
+  position:absolute;
+  left:700px;
+  top:100px;
+  font-size:45px;
+  color:#000;
+  z-index: 1;
+  line-height:50px;
+}
+.word2{
+  width: 200px;
+  height: 23px; 
+  position:absolute;
+  left:700px;
+  top:170px;
+  font-size:20px;
+  color:rgb(165, 154, 154);
+  z-index: 1;
+  line-height:23px;
+}
+.word3{
+  width: 200px;
+  height: 23px; 
+  position:absolute;
+  left:700px;
+  top:330px;
+  font-size:14px;
+  color:#777;
+  z-index: 1;
+  line-height:23px;
